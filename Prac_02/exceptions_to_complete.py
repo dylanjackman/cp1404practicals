@@ -6,10 +6,8 @@ Fill in the TODOs to complete the task
 
 """
 
-
 finished = False
 result = 0
-
 while not finished:
     try:
         result = int(input("Please enter a number: "))
