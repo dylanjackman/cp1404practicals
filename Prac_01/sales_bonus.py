@@ -6,4 +6,9 @@ If sales are $1,000 or over, the bonus is 15%.
 
 sales = float(input("Enter sales: $"))
 if sales < 1000:
-    sales = sales * 0.1
+    sales_bonus = sales * 0.1
+    print("Your sales were ${} and the bonus sales were ${}.".format(sales, sales_bonus))
+
+elif sales >= 1000:
+    sales_bonus = sales *0.15
+    print("Your sales were ${} and the bonus sales were ${}.".format(sales, sales_bonus))
