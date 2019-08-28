@@ -45,7 +45,7 @@ def is_valid_password(password):
             count_upper += 1
         elif char.isdigit():
             count_digit += 1
-        if char in SPECIAL_CHARACTERS:
+        elif char in SPECIAL_CHARACTERS:
             count_special += 1
 
     # TODO: if any of the 'normal' counts are zero, return False
