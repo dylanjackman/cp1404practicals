@@ -14,14 +14,8 @@ def get_password(minimum_length):
     return password
 
 
-def method_name():
-    global print_asterisks
-
-    def print_asterisks(sequence):
-        print('*' * len(sequence))
-
-
-method_name()
+def print_asterisks(sequence):
+    print('*' * len(sequence))
 
 
 main()
