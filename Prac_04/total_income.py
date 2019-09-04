@@ -13,6 +13,10 @@ def main():
         income = float(input("Enter income for Month{:2}: ".format(month)))
         incomes.append(income)
 
+    report(incomes, month_number)
+
+
+def report(incomes, month_number):
     print("\nIncome Report\n-------------")
     total = 0
     for month in range(1, month_number + 1):
