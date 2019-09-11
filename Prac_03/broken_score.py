@@ -8,10 +8,10 @@ Broken program to determine score status
 
 def main():
     score = float(input("Enter score: "))
-    print(status_score(score))
+    print(determine_grade(score))
 
 
-def status_score(score):
+def determine_grade(score):
     if score < 0 or score > 100:
         return "Invalid score"
     elif score >= 90:
